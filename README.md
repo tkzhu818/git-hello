@@ -28,5 +28,12 @@ git commit 将本地变化提交的本地的仓库文佳佳归档
 git diff
 
 
-恢复到某个版本
-git reset --hard hash前6位
+
+git reset --hard hash pre-six-num
+
+echo "# git-hello" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/tkzhu818/git-hello.git
+git push -u origin master
