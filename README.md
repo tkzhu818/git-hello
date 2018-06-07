@@ -14,6 +14,8 @@ git status
 
 - 添加本地仓库资源
 git add
+git add .
+git add --all
 	类似node_modules 不应该被跟踪托管
 
 .gitignore 忽略托管文件
@@ -26,4 +28,5 @@ git commit 将本地变化提交的本地的仓库文佳佳归档
 git diff
 
 
-咋这么多啊的问题啊 啊
+恢复到某个版本
+git reset --hard hash前6位
